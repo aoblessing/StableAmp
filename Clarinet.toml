@@ -5,6 +5,11 @@ authors = []
 telemetry = false
 cache_dir = './.cache'
 requirements = []
+[contracts.mock-usda-token]
+path = 'contracts/mock-usda-token.clar'
+clarity_version = 3
+epoch = 3.1
+
 [contracts.sip-010-trait]
 path = 'contracts/sip-010-trait.clar'
 clarity_version = 3
